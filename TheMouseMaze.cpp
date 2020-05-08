@@ -6,7 +6,6 @@
 
 int main(){
 	emre:
-	system("color e");
 	srand(time(NULL));
 	int x=1,y=2,xr=8,yr=47,xc=5,yc=23,xc2=1,yc2=27,xc3=8,yc3=24,xc4=7,yc4=10,xc5=4,yc5=36,ran,ran2,ran3,ran4,ran5,i,j,hamle=0;
 	char map[10][50];
@@ -163,7 +162,7 @@ int main(){
 	
 	
 	
-	//rand baslangýc
+	//rand baslangÃ½c
 	if(map[x][y]!=map[xc][yc] ||map[x][y]!=map[xc2][yc2] ||map[x][y]!=map[xc3][yc3]||map[x][y]!=map[xc4][yc4]||map[x][y]!=map[xc5][yc5]){
 
 	ran=rand()%4+1;
